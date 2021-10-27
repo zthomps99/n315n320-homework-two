@@ -1,0 +1,41 @@
+.photoGallery {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  padding-top: 150px;
+
+  .galleryRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .galleryBlock {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    .galleryImg {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+
+      img {
+        width: cover;
+        height: 100%;
+      }
+    }
+
+    .galleryInfo {
+      width: 150px;
+      height: 200px;
+
+      padding: 12px;
+
+      p {
+        font-size: 13px;
+        font-variant: small-caps;
+      }
+    }
+  }
+}
